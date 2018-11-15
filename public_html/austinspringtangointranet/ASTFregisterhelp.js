@@ -1,0 +1,1 @@
+../austinspringtangotestreg1/ASTFregisterhelp.js

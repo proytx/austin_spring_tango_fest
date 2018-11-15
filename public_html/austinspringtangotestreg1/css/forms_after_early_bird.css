@@ -1,0 +1,10 @@
+#discount p.firstp {
+    display: none;
+}
+#discount label[for="groupDiscount"]{
+    display: none;
+}
+
+#groupDiscount {
+    display: none;
+}

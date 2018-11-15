@@ -1,0 +1,5 @@
+/* CSS Document */
+
+#head, #Total, #navbar, #aboutYou , #address, #selClasses, #discount, #payMethod, #body2>h1, #body2>p{  /* nothing to be printed by default except selClasses1, selMilongas */
+  display: none;
+}

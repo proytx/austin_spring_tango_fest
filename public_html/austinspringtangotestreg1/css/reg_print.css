@@ -1,0 +1,70 @@
+/* CSS Document */
+#head, #Total, #navbar, #address,  #selClasses,   #body2>h1, #body2>p {  /* nothing to be printed by default except selClasses1, selMilongas */
+  display: none;
+}
+
+form #selClasses1>p:first-of-type {
+  display: none;
+}
+form label {
+  width: 15em;
+}
+form br + p {padding-top:0px; }
+
+.main-navigation {
+  display: none;
+  margin-top: 10px;
+}
+.entry-content>p:first-of-type {
+  display: none;
+}
+h1.site-title { font-size: 1em;}
+h2.site-description{ font-size: 0.75em;
+		line-height: 0.7em;}
+.entry-header .entry-title {font-size: 12px;
+			line-height: 0.5; }
+.entry-header {margin-bottom: 10px;}
+.entry-content  { font-size: 14px;
+		line-height: 0.90;}
+
+#body2, form {
+    width: auto;
+    padding: 0;
+    border: 0;
+}
+
+form fieldset {
+    padding: 0;
+    margin: 0;
+}
+
+form #selMilongas {
+    float: left;
+    width: 40%;
+}
+
+form #payMethod , form #discount {
+    clear: none;
+}
+
+#aboutYou {
+    border: 0;
+}
+
+#selMilongas em, #selMilongas em + br {
+    display: none;
+}
+
+#aboutYou legend, #aboutYou label, #aboutYou p, #aboutYou input[type="radio"], #aboutYou br  {
+    display: none;
+}
+
+#payMethod p, #payMethod input[type="submit"], #payMethod label[for="submit"] {
+    display: none;
+}
+
+div.entry-content   h2, div.entry-content h2 + p {  
+    display: none;
+}
+
+

@@ -1,0 +1,312 @@
+html,body {
+font:Verdana, Arial, Helvetica, sans-serif;
+background-color:#000;
+}
+
+#main {
+background-color:#FFF;
+width:auto;
+border:#2C080C 2px solid;
+margin:0 auto;
+padding:0;
+}
+
+#head,#foot {
+background-color:#05082C;
+margin:0 auto;
+padding:.5em;
+}
+
+#head {
+background-image:url(../images/bkgnd_mob2.jpg);
+background-position:right;
+background-color:#00051F;
+background-repeat:no-repeat;
+}
+
+#body {
+background-color:#FFF;
+background-image:url(../images/ASTF11-mario-anabella-2_background.JPG);
+background-position:100% 50px;
+background-repeat:no-repeat;
+margin:0 auto;
+padding:.5em;
+}
+
+p.c2 {
+font-weight:700;
+margin:0 0 .25em;
+padding:.25em;
+}
+
+h2.c1 {
+margin:1.25em 0 0;
+padding:.25em;
+}
+
+div.c4 {
+position:relative;
+}
+
+p.c3 {
+font-size:1px;
+line-height:1px;
+clear:right;
+
+
+}
+
+h3.c2 {
+clear:right;
+}
+
+div.c1 {
+float:none;
+text-align:center;
+margin:1em 0 0;
+padding:.25em;
+}
+
+ul.c1 {
+list-style:none;
+}
+
+#body2 {
+background-color:#FFF;
+
+margin:0 auto;
+padding:.5em;
+}
+
+#head h1 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:2.25em;
+font-style:normal;
+line-height:1em;
+font-weight:400;
+color:#fff;
+margin:.25em 0 0;
+}
+
+#head h2 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:1em;
+font-style:normal;
+line-height:1em;
+font-weight:700;
+color:#fff;
+margin:0;
+}
+
+.nav {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+font-style:normal;
+line-height:.9em;
+font-weight:700;
+margin:0 .2em;
+}
+
+small {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.5em;
+}
+
+h1 {
+font-family:"Times New Roman", Times, serif;
+font-size:1.9em;
+font-style:normal;
+line-height:.8em;
+font-weight:700;
+margin:.5em 0 0;
+}
+
+h2 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.25em;
+font-style:normal;
+line-height:1.2em;
+font-weight:700;
+margin:.8em 0;
+}
+
+h3 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.1em;
+font-style:normal;
+color:#4E151C;
+line-height:1em;
+font-weight:700;
+margin:1.5em 0 .5em;
+}
+
+h4 {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+font-style:normal;
+line-height:1em;
+font-weight:700;
+margin:1.5em 0 .25em;
+}
+
+#foot p {
+font-family:Arial, Helvetica, sans-serif;
+font-size:.9em;
+font-style:normal;
+text-align:right;
+line-height:1em;
+color:#FFF;
+margin:0;
+}
+
+p,ul,ol {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:.9em;
+line-height:1.4em;
+margin:0 0 1em;
+}
+
+li {
+margin-top:0;
+margin-bottom:.5em;
+}
+
+img {
+	max-width: 100%;
+}
+	
+img.bio {
+float:right;
+border:#fff 1px solid;
+margin:.35em .5em .5em;
+padding:0;
+}
+
+ul.masterteachers {
+list-style:none;
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.2em;
+margin-top:0;
+}
+
+ul.masterteachers li {
+margin-top:0;
+margin-bottom:0;
+}
+
+a {
+color:#395D88;
+text-decoration:none;
+}
+
+#foot a,.nav a {
+color:#638DC7;
+}
+
+a:hover {
+color:#6D9761;
+text-decoration:underline;
+}
+
+#foot a:hover,.nav a:hover {
+color:#6D9761;
+}
+
+table {
+border-collapse:collapse;
+border:#333 2px solid;
+margin:0 0 1em;
+}
+
+th {
+vertical-align:middle;
+}
+
+th p,td p {
+margin:.35em 0;
+}
+
+th.lftcol,td.cntrcol,td.rtcol {
+text-align:left;
+border:#333 1px dotted;
+font-weight:400;
+}
+
+th.cntrcol,th.rtcol {
+text-align:center;
+border:#333 1px dotted;
+font-weight:700;
+}
+
+th.fullspan {
+text-align:left;
+border:#333 1px solid;
+font-weight:700;
+}
+
+th.fullspan h3 {
+font-size:.9em;
+margin:.85em 0 .15em;
+}
+
+table.schedule th {
+vertical-align:top;
+}
+
+span.emph {
+font-weight:700;
+}
+
+.style1 {
+font-size:1.3em;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+.style2 {
+margin-top:.6em;
+display:block;
+}
+
+.style3 {
+font-size:1.15em;
+}
+
+.style4 {
+font-size:1.25em;
+margin-top:.75em;
+margin-bottom:.15em;
+}
+
+.style5 {
+font-size:1em;
+font-style:italic;
+color:#4E151C;
+font-weight:700;
+margin-top:.5em;
+margin-bottom:.6em;
+}
+
+.hvrtxt {
+background-color:#DEF;
+}
+
+p.c5,p.c7 {
+overflow:hidden;
+width:700;
+margin-bottom:.6em;
+margin-left:10em;
+margin-right:auto;
+}
+
+img.c4,img.c6 {
+border:10px;
+float:left;
+margin-left:10px;
+vertical-align:baseline;
+}
+
+img.c3,img.c5 {
+border:10px;
+float:left;
+vertical-align:baseline;
+}

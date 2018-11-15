@@ -1,0 +1,72 @@
+table {background:black;
+		table-layout: fixed;
+		width: 100%;}	
+th {background:silver;
+		padding: 10px;
+		margin: 10px;
+		display: none;
+	}
+th:nth-child(2) {display:table-cell; }
+td {		padding: 10px;
+		margin: 10px;
+		font-size: 1.3em; 
+		height: 4em;
+		max-height: 4em;
+		display:none; }
+td:nth-child(2) {display:table-cell; }
+td:nth-child(9) {display:table-cell; }
+th:nth-child(9) {	display: table-cell;
+				width: 10%;
+				white-space: nowrap;
+				overflow: hidden;}
+td:first-child, td:first-child {width: 20%; }
+th:nth-child(10), td:nth-child(10) {	display: table-cell;
+				width: 20%;
+				white-space: nowrap;
+				overflow: hidden;}
+
+				
+html,body {font: Verdana, sans-serif; }
+#floatform1,#floatform2,#floatform3 {
+			position: absolute;
+			width: 75%;
+		}
+		
+		   
+#floatform1,#floatform2,#floatform3 {
+           z-index:100;
+           top:10px;
+           height: 1000px;
+           left:0;
+           background: #000;
+           visibility:hidden;
+           }
+
+#floatform3 div div {
+			display:inline-block;
+			zoom:1;
+			*display:inline;	// the preceding * means non-IE browsers ignore it
+		}
+		
+label { color: orange;
+        font-weight: bold;
+       }
+label[for*="milonga"]:before {content: '\a' ; white-space: pre;}
+
+span { color: orange;
+      font-weight: bold;
+      }
+
+textarea, input {max-width: 95%;}
+#record, #register2 {visibility: hidden;}
+
+td  span {
+	float: left;
+	width: 15px;
+	height: 15px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #000000;
+	text-align: center;
+}

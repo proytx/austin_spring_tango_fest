@@ -1,0 +1,97 @@
+table {border: 0px}
+
+tr.hiddenrow {
+    display: none;
+}
+/* tr:nth-child(odd) {background:#F0F0F0} */
+/* tr:nth-child(even) {background:#D0D0D0} */
+tr.oddrow {background:#F0F0F0} 
+tr.evenrow {background:#D0D0D0} 
+th {background:silver;
+		padding: 10px;
+		margin: 10px;
+	}
+html,body {font: Verdana, Arial, Helvetica, sans-serif; }
+#floatform1,#floatform2,#floatform3 {
+			position: absolute;
+			width: 600px;
+		}
+		
+body > div#floatform1, body > div#floatform2,body > div#floatform3 { 
+           position:fixed;
+		}
+		   
+#floatform1,#floatform2,#floatform3 {
+           z-index:100;
+           top:10px;
+           bottom:650px;
+           height: 100%;
+           left:0;
+           background: #000;
+           visibility:hidden;
+           }
+
+#floatform3 div div {
+			display:inline-block;
+			zoom:1;
+			*display:inline;	// the preceding * means non-IE browsers ignore it
+		}
+		
+label { color: orange;
+        font-weight: bold;
+       }
+
+span { color: orange;
+      font-weight: bold;
+      }
+
+.arrowleft {
+	width: 0;
+	height: 0;
+	border-bottom: 20px solid transparent; /* left arrow slant */
+	border-top: 20px solid transparent; /* right arrow slant */
+	border-right: 20px solid #2f2f2f; /* bottom, add background */
+	font-size: 0;
+	line-height: 0;
+}
+
+.arrowright {
+	width: 0;
+	height: 0px;
+	border-bottom: 20px solid transparent; /* left arrow slant */
+	border-top: 20px solid transparent; /* right arrow slant */
+	border-left: 20px solid #2f2f2f; /* bottom, add background */
+	font-size: 0;
+	line-height: 0;
+}
+
+.arrowcontainer {
+	width: 200px;
+	height: 35px;
+	font-size: 1.25em;
+}
+
+.hiddenmenu {
+	z-index:1000;
+	position: absolute;
+	background-color:#C0C0C0;
+	border: 1px solid blue;
+	padding: 5px;
+	display: none;
+	margin: 0px;
+}
+
+td  span {
+	float: left;
+	width: 15px;
+	height: 15px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #000000;
+	text-align: center;
+}
+
+label[for*="address"], #address, #address + br { display: none; }
+label[for*="city"], #city, #city + br { display: none; }
+label[for*="state"],#state, #state + br { display: none; }

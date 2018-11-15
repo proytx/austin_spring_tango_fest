@@ -1,0 +1,1 @@
+ASTFRegistrationFromQRUrl.php

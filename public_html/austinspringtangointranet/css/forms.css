@@ -1,0 +1,87 @@
+/* CSS Document */
+
+form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  width: 49em; 
+}
+
+form fieldset {
+  clear: left;  
+  border-color: #333;
+  border-width: 1px;
+  border-style: solid;
+  padding: .5em;        /* padding in fieldset support spotty in IE */
+  margin: 1em 0 0 0;
+}
+
+form fieldset legend {
+	color: #4E151C;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:1.25em;
+}
+
+form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 16em; 
+	padding: 0; 
+	margin: .5em 0 0; /* set top margin same as form input - textarea etc. elements, pixels work better for this */
+  font-size: .9em;
+	text-align: right; 
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+form input, form textarea , form div.dummyspace{
+	margin: .5em 0 0 .25em; /* set top margin same as form input - textarea etc. elements */
+	display: block;  
+	float: left; 
+  font-size: .9em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+form p {
+  clear: both; 
+  margin: 1.25em 0 0 0; 
+}
+form p.firstp {
+  clear: both; 
+  margin: .25em 0 0 0; 
+}
+
+form br {
+	clear:left;
+}
+
+.hide {
+	display:none;
+}
+
+div#Total {
+	position:fixed;
+	z-index:100;
+	top:10px;
+	bottom:100px;
+	height: 10%;
+	left:1200px;
+	background: #ccc;
+	border-color: #333;
+	border-width: 1px;
+	border-style: solid; 
+	font-size: .7em;
+}
+
+#selClasses1 div.classtopics {
+	display: block;
+	float: left; 
+	font-size: .7em;
+	text-align: center;
+	width: 21%;
+	margin: .25em;
+	background: #ccc;
+}
+
+#register {
+    display: none;
+}

@@ -1,0 +1,137 @@
+/* CSS Document */
+body {
+	width: auto;
+	min-width: 0px;
+}
+	
+form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+  font-family: Verdana,Arial,Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  width: auto; 
+  min-width: 0px;
+}
+
+form fieldset {
+  clear: left;  
+  border-color: #333;
+  border-width: 1px;
+  border-style: solid;
+  padding: .5em;        /* padding in fieldset support spotty in IE */
+  margin: 1em 0 0 0;
+}
+
+form fieldset legend {
+	color: #4E151C;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+	font-size:1.25em;
+}
+
+form label { 
+	display: block;  /* block float the labels to left column, set a width */
+	float: left; 
+	width: 6em; 
+	padding: 0; 
+	margin: .5em 0 0; /* set top margin same as form input - textarea etc. elements, pixels work better for this */
+  font-size: .9em;
+	text-align: right; 
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+form label[for*="package"], form label[for*="class"], form label[for*="milonga"] { 
+	width: 7em; 
+}
+
+form input, form textarea, form div.dummyspace {
+	margin: .5em 0 0 .25em; /* set top margin same as form input - textarea etc. elements */
+	display: block;  
+	float: left; 
+  font-size: .9em;
+	font-family: Verdana,Arial,Helvetica,sans-serif;
+}
+
+form p {
+  clear: both; 
+  margin: 1.25em 0 0 0; 
+}
+form p.firstp {
+  clear: both; 
+  margin: .25em 0 0 0; 
+}
+
+form br {
+	clear:left;
+}
+
+.hide {
+	display:none;
+}
+div#Total {
+	position:fixed;
+	z-index:100;
+	top:10px;
+	bottom:100px;
+	height: 25%;
+	left:80px;
+	background: #ccc;
+	border-color: #333;
+	border-width: 1px;
+	border-style: solid; 
+	font-size: .7em;
+}
+
+#selClasses1 div.classtopics {
+	display: block;
+	float: left; 
+	font-size: .7em;
+	text-align: center;
+	width: 21%;
+	margin: .25em;
+	background: #ccc;
+}
+
+/* Smaller Screens */
+@media screen and (max-width: 760px) {
+  form label[for="package1"], form label[for="package3"] { 
+    width: 49%;
+    margin: .5em 1% 0 0; 
+  }
+  form label[for="package2"], form label[for="package4"] { 
+    width: 49%;
+    margin: .5em 0 0 1%; 
+  }
+}
+@media screen and (max-width: 600px) {
+  form label {width:10em;font-size: .8em;}
+}
+@media screen and (max-width: 480px) {
+  form label {width:6.5em; font-size: .8em;}
+  form input, form textarea, form div.dummyspace {font-size: .8em;}
+  form label[for="package1"], form label[for="package3"], form label[for="package2"], form label[for="package4"] { 
+    width: 100%;
+    margin: .5em 0 0 0; 
+    float: none;
+    font-size: .9em;
+  }
+  .entry-content form p {font-size: .9em;}
+}
+/* super-small & handhelds: max-width 320px  */
+@media handheld, screen and (max-width: 320px), screen and (max-device-width: 320px) {
+  body {
+    width: auto;
+    min-width: 0px;
+  }
+  form {  /* set width in form, not fieldset (still takes up more room w/ fieldset width */
+    margin: 0;
+    width: auto; 
+    min-width: 0px;
+  }
+  form label, form label[for="package1"],form label[for="package2"],form label[for="package3"],form label[for="package4"] { 
+    margin:0;
+    text-align: left;
+  }
+  #Total {
+    width: 90%;
+    overflow: auto;
+  }
+}
