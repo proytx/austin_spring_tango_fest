@@ -1,29 +1,15 @@
+# austin_spring_tango_fest
 # README #
 
 This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* This was the backend for the Austin Spring Tango Festival for many years
+* A revamped design was being planned using gearmand, to combine ruby and php
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+* there is an admin script to get started, but is missing data file
+* config.*.php database passwords need to be set up
 
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
